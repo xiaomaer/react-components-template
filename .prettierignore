@@ -1,0 +1,14 @@
+*.md
+*ignore
+
+.DS_Store
+package-lock.json
+
+.cache
+
+test
+dist
+node_modules
+dll
+coverage
+types

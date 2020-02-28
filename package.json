@@ -1,0 +1,46 @@
+{
+  "name": "react-components-template",
+  "version": "1.0.0",
+  "description": "react组件库脚手架",
+  "main": "index.js",
+  "repository": "git@github.com:xiaomaer/react-components-template.git",
+  "author": "xm",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint:script": "eslint --ext .ts,tsx components",
+    "fix:script": "eslint --fix --ext .ts,tsx components",
+    "format": "prettier --write components/**/*.{ts,tsx,css,scss}",
+    "lint:style": "stylelint components/**/*.{css,scss}",
+    "fix:style": "stylelint --fix components/**/*.{css,scss}"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "components/**/*.{ts,tsx}": [
+      "eslint"
+    ],
+    "components/**/*.{css,scss}": [
+      "stylelint"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@umijs/fabric": "^2.0.3",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1"
+  }
+}
