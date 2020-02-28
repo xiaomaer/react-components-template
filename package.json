@@ -15,9 +15,9 @@
     "commit": "git-cz",
     "lint:script": "eslint --ext .ts,tsx components",
     "fix:script": "eslint --fix --ext .ts,tsx components",
-    "format": "prettier --write components/**/*.{ts,tsx,css,scss}",
-    "lint:style": "stylelint components/**/*.{css,scss}",
-    "fix:style": "stylelint --fix components/**/*.{css,scss}"
+    "format": "prettier --write components/**/*.{ts,tsx,css,less}",
+    "lint:style": "stylelint components/**/*.{css,less}",
+    "fix:style": "stylelint --fix components/**/*.{css,less}"
   },
   "husky": {
     "hooks": {
@@ -29,19 +29,27 @@
     "components/**/*.{ts,tsx}": [
       "eslint"
     ],
-    "components/**/*.{css,scss}": [
+    "components/**/*.{css,less}": [
       "stylelint"
     ]
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
     "@umijs/fabric": "^2.0.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "stylelint": "^13.2.0",
     "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   }
 }
