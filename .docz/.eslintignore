@@ -1,0 +1,5 @@
+config
+dist
+test
+node_modules
+dll

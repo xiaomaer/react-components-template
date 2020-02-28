@@ -1,0 +1,200 @@
+{
+  "stages": {
+    "develop": {
+      "plugins": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-export-metadata",
+          "options": {
+            "root": "/Users/mia/Documents/projects-me/react-components-template"
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "develop-html": {
+      "plugins": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-export-metadata",
+          "options": {
+            "root": "/Users/mia/Documents/projects-me/react-components-template"
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-html": {
+      "plugins": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-export-metadata",
+          "options": {
+            "root": "/Users/mia/Documents/projects-me/react-components-template"
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-javascript": {
+      "plugins": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-export-metadata",
+          "options": {
+            "root": "/Users/mia/Documents/projects-me/react-components-template"
+          }
+        }
+      ],
+      "presets": [
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        },
+        {
+          "name": "/Users/mia/Documents/projects-me/react-components-template/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "options": {
+            "sourceMap": true,
+            "autoLabel": true,
+            "plugins": []
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    }
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}
