@@ -12,6 +12,10 @@
     }
   },
   "scripts": {
+    "dev": "docz dev",
+    "start": "npm run dev",
+    "build:doc": "rimraf doc-build && docz build",
+    "preview:doc": "docz serve",
     "commit": "git-cz",
     "lint:script": "eslint --ext .ts,tsx components",
     "fix:script": "eslint --fix --ext .ts,tsx components",
@@ -41,11 +45,13 @@
     "@umijs/fabric": "^2.0.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.1.0",
+    "docz": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "rimraf": "^3.0.2",
     "stylelint": "^13.2.0",
     "typescript": "^3.8.2"
   },
