@@ -27,7 +27,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "clean": "rimraf types lib esm dist",
     "build": "npm run clean && npm run build:types && gulp",
-    "gulp":"gulp"
+    "gulp": "gulp"
   },
   "husky": {
     "hooks": {
@@ -73,6 +73,7 @@
     "react-dom": "^16.13.0",
     "rimraf": "^3.0.2",
     "stylelint": "^13.2.0",
+    "through2": "^3.0.1",
     "typescript": "^3.8.2"
   },
   "dependencies": {
