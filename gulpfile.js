@@ -9,7 +9,7 @@ const paths = {
   dest: {
     lib: 'lib', // commonjs 文件存放的目录名 
     esm: 'esm', // ES module 文件存放的目录名 
-    dist: 'dist', // umd文件存放的目录名 
+    // dist: 'dist', // umd文件存放的目录名 -暂不支持
   },
   styles: 'components/**/*.less', // 样式文件路径 
   scripts: ['components/**/*.{ts,tsx}', '!components/**/demo/*.{ts,tsx}'], // 脚本文件路径
