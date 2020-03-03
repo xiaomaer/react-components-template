@@ -7,13 +7,17 @@ const through2 = require('through2');
 
 const paths = {
   dest: {
-    lib: 'lib', // commonjs 文件存放的目录名 
-    esm: 'esm', // ES module 文件存放的目录名 
+    lib: 'lib', // commonjs 文件存放的目录名
+    esm: 'esm', // ES module 文件存放的目录名
     // dist: 'dist', // umd文件存放的目录名 -暂不支持
   },
-  styles: 'components/**/*.less', // 样式文件路径 
+  styles: 'components/**/*.less', // 样式文件路径
   // 组件打包时，不打包demo和__tests__文件
-  scripts: ['components/**/*.{ts,tsx}', '!components/**/demo/*.{ts,tsx}','!components/**/__tests__/*.{ts,tsx}'], // 脚本文件路径
+  scripts: [
+    'components/**/*.{ts,tsx}',
+    '!components/**/demo/*.{ts,tsx}',
+    '!components/**/__tests__/*.{ts,tsx}',
+  ], // 脚本文件路径
 };
 
 /**
@@ -100,11 +104,9 @@ function less2css() {
     .pipe(gulp.dest(paths.dest.esm));
 }
 
-
 // 整体并行执行任务
-const build = gulp.parallel(buildScripts,copyLess,less2css);
+const build = gulp.parallel(buildScripts, copyLess, less2css);
 
 exports.build = build;
 
 exports.default = build;
-
