@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "react组件库脚手架",
   "main": "lib/index.js",
+  "module": "esm/index.js",
   "repository": "git@github.com:xiaomaer/react-components-template.git",
   "author": "xm",
   "license": "MIT",
@@ -48,7 +49,6 @@
     "@babel/preset-env": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
-    "@babel/runtime": "^7.8.4",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/react": "^16.9.23",
@@ -72,6 +72,7 @@
     "typescript": "^3.8.2"
   },
   "dependencies": {
+    "@babel/runtime": "^7.8.4",
     "prop-types": "^15.7.2"
   }
 }
