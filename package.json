@@ -2,7 +2,7 @@
   "name": "react-components-template",
   "version": "1.0.0",
   "description": "react组件库脚手架",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:xiaomaer/react-components-template.git",
   "author": "xm",
   "license": "MIT",
@@ -23,7 +23,9 @@
     "format": "prettier --write components/**/*.{ts,tsx,css,less}",
     "lint:style": "stylelint components/**/*.{css,less}",
     "fix:style": "stylelint --fix components/**/*.{css,less}",
-    "build:types": "tsc --emitDeclarationOnly"
+    "build:types": "tsc --emitDeclarationOnly",
+    "clean": "rimraf types lib esm dist",
+    "build": "npm run clean && npm run build:types && gulp"
   },
   "husky": {
     "hooks": {
@@ -57,6 +59,8 @@
     "cz-conventional-changelog": "^3.1.0",
     "docz": "^2.2.0",
     "gatsby-plugin-less": "^3.0.19",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "husky": "^4.2.3",
     "less": "^3.11.1",
     "lint-staged": "^10.0.8",
