@@ -6,6 +6,7 @@
   "repository": "git@github.com:xiaomaer/react-components-template.git",
   "author": "xm",
   "license": "MIT",
+  "typings": "types/index.d.ts",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -21,7 +22,8 @@
     "fix:script": "eslint --fix --ext .ts,tsx components",
     "format": "prettier --write components/**/*.{ts,tsx,css,less}",
     "lint:style": "stylelint components/**/*.{css,less}",
-    "fix:style": "stylelint --fix components/**/*.{css,less}"
+    "fix:style": "stylelint --fix components/**/*.{css,less}",
+    "build:types": "tsc --emitDeclarationOnly"
   },
   "husky": {
     "hooks": {
@@ -42,6 +44,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "@types/vfile-message": "^2.0.0",
     "@umijs/fabric": "^2.0.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.1.0",
