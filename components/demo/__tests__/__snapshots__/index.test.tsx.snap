@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`use demo should render default 1`] = `
+<div>
+  <div
+    class="test"
+  >
+    xm
+  </div>
+</div>
+`;

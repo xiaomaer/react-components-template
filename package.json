@@ -93,6 +93,10 @@
     "@babel/runtime": "^7.8.4",
     "prop-types": "^15.7.2"
   },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
   "sideEffects": [
     "dist/*",
     "esm/**/style/*",

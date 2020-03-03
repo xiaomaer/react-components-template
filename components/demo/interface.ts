@@ -3,5 +3,5 @@
  */
 
 export interface ITestProps {
-    name:string
+  name: string;
 }
