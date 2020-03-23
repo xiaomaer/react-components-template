@@ -13,3 +13,6 @@ react组件库脚手架
 
 ## 参考
 https://github.com/worldzhao/react-ui-library-tutorial
+
+## todo
+自动生成npm version，并push tag
