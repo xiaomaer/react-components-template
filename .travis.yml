@@ -17,6 +17,7 @@ install:
 script:
   - npm run test
   - npm version patch
+  - git push origin master --tag
 before_deploy:
   - npm run build
 deploy:
