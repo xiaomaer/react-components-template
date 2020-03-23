@@ -9,7 +9,8 @@
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "include": ["components"],
   "exclude": ["components/**/demo", "components/**/__tests__"]

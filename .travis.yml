@@ -11,6 +11,9 @@ cache:
 branches:
   only:
     - master
+
+install:
+  - yarn install
 script:
   - npm run test
 before_deploy:
