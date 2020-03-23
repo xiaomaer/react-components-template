@@ -18,7 +18,10 @@ script:
   - npm run test
 before_deploy:
   - npm run build
+  - npm version patch
 deploy:
   provider: npm
   email: '$NPM_EMAIL'
   api_token: '$NPM_TOKEN'
+  on:
+    tags: true

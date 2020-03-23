@@ -8,9 +8,7 @@ react组件库脚手架
 * 开发调试：docz
 * 单元测试：jest
 * 按需加载: 允许通过 babel-plugin-import 实现组件的按需加载
-
-## todo
-接入CI/CD，实现自动化构建和发布
+* 构建发布：travis ci
 
 
 ## 参考
