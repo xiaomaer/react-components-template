@@ -16,9 +16,9 @@ install:
   - yarn install
 script:
   - npm run test
+  - npm version patch
 before_deploy:
   - npm run build
-  - npm version patch
 deploy:
   provider: npm
   email: '$NPM_EMAIL'
