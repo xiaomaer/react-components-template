@@ -1,13 +1,12 @@
-sudo: required
 language: node_js
 node_js:
   - '10'
+os:
+  - linux
 # Travis-CI Caching
 cache:
   directories:
     - node_modules
-
-install: yarn
 # 只检测 master 分支的 push
 branches:
   only:
@@ -19,7 +18,4 @@ before_deploy:
 deploy:
   provider: npm
   email: '$NPM_EMAIL'
-  api_key: '$NPM_TOKEN'
-  skip_cleanup: true
-  on:
-    tags: true
+  api_token: '$NPM_TOKEN'

@@ -1,6 +1,6 @@
 {
   "name": "react-components-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react组件库脚手架",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -27,10 +27,10 @@
     "build:types": "tsc --emitDeclarationOnly",
     "clean": "rimraf types lib esm dist",
     "build": "npm run clean && npm run build:types && gulp",
-    "test": "jest",  
-    "test:watch": "jest --watch",  
-    "test:coverage": "jest --coverage", 
-    "test:update": "jest --updateSnapshot"  
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest --updateSnapshot"
   },
   "husky": {
     "hooks": {
